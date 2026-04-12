@@ -2,6 +2,7 @@ build/
 install/
 log/
 *.pyc
+*.readme
 __pycache__/
 .vscode/
 ros2_ws/build/
