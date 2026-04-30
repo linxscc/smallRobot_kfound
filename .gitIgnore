@@ -3,6 +3,7 @@
 *.readme
 *.csproj
 *.sln
+*.meta
 
 
 __pycache__/
@@ -12,7 +13,8 @@ install/
 log/
 smallRobot/Packages/
 smallRobot/Temp/
-smallRobot//ProjectSettings/
+smallRobot/ProjectSettings/
+smallRobot/UserSettings/
 smallRobot/Library/
 smallRobot/Logs/
 smallRobot/obj/
