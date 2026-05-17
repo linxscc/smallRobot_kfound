@@ -3,10 +3,15 @@
 <package format="3">
   <name>py_pubsub</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>ROS2 Robot Task Management System - Navigation Demo</description>
   <maintainer email="z1748209165@gmail.com">kern_root</maintainer>
-  <license>TODO: License declaration</license>
+  <license>Apache License 2.0</license>
 
+  <!-- ROS2依赖 -->
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  
+  <!-- 测试依赖 -->
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>

@@ -12,3 +12,12 @@ cd ~/projects/robot_project/smallRobot_kfound
 source /opt/ros/jazzy/setup.bash
 colcon build
 source install/setup.bash
+
+
+项目启动
+ros2 run py_pubsub task_manager_node
+
+测试客户端
+python3 -m py_pubsub.client
+
+
